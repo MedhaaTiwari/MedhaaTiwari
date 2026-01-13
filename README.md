@@ -39,5 +39,3 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vertical\&theme=radical)
 
 
-
-Just say the word 💙

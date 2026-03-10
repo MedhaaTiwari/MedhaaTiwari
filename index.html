@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Player App</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Media/Logo.png" alt="Logo">
+        <h1 class="title">Rhythm Realm</h1>
+        <div class="theme-toggle">
+          <input type="checkbox" id="themeToggle" />
+          <label for="themeToggle">
+            <span class="toggle-slider"></span>
+            <span class="toggle-text">Dark</span>
+          </label>
+        </div>
+    </header>
+    <main>
+    <div class="container">
+
+        <div class="left">
+        <h4>Film By Genre:</h4>
+    <div class="dropdown">
+    <button class="dropdown-btn">select genre</button>
+    <div class="dropdown-content">
+        <a href="#all">All</a>
+        <a href="#hip-hop">Hip-Hop</a>
+        <a href="#rock">Rock</a>
+        <a href="#pop">Pop</a>
+        <a href="#country">Country</a>
+    </div>
+    </div>        
+    <h2 class="Subheading1">All Songs</h2>
+        <ul class="songList" type="none">
+
+            <li data-genre="hip-hop" data-title="Lose Yourself" data-artist="Eminem" data-image="https://m.media-amazon.com/images/M/MV5BOWQ3ZmZhZDQtOWJmYi00ZDYxLTk5OTktZDE4NzYxN2RlMmRhXkEyXkFqcGc@._V1_.jpg" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-lyrics="https://genius.com/Eminem-lose-yourself-lyrics">Lose Yourself</li>
+            <li data-genre="hip-hop" data-title="Gold Digger" data-artist="Kanye West" data-image="https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-lyrics="https://genius.com/Kanye-west-gold-digger-lyrics">Gold Digger</li>
+            <li data-genre="rock" data-title="Stairway to Heaven" data-artist="Led Zeppelin" data-image="https://i.pinimg.com/736x/03/11/97/0311978ff3a2155ddc50790368dfd4e5.jpg" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" data-lyrics="https://genius.com/Led-zeppelin-stairway-to-heaven-lyrics">Stairway to Heaven</li>
+            <li data-genre="hip-hop" data-title="Hotline Bling" data-artist="Drake" data-image="https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/1900x1900-000000-80-0-0.jpg" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" data-lyrics="https://genius.com/Drake-hotline-bling-lyrics">Hotline Bling</li>
+            <li data-genre="rock" data-title="Bohemian Rhapsody" data-artist="Queen" data-image="https://images2.alphacoders.com/112/1121059.jpg" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" data-lyrics="https://genius.com/Queen-bohemian-rhapsody-lyrics">Bohemian Rhapsody</li>
+            <li data-genre="country" data-title="Wagon Wheel" data-artist="Darius Rucker" data-image="https://upload.wikimedia.org/wikipedia/en/c/c2/OCMS_-_Wagon_Wheel_cd_single.png" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" data-lyrics="https://genius.com/Darius-rucker-wagon-wheel-lyrics">Wagon Wheel</li>
+            <li data-genre="country" data-title="Take Me Home, Country Roads" data-artist="John Denver" data-image="https://upload.wikimedia.org/wikipedia/en/4/4c/John_Denver_-_Take_Me_Home%2C_Country_Roads.jpg" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" data-lyrics="https://genius.com/John-denver-take-me-home-country-roads-lyrics">Take Me Home, Country Roads</li>
+            <li data-genre="pop" data-title="Bad Guy" data-artist="Billie Eilish" data-image="https://i.scdn.co/image/ab67616d0000b273facd59568d0cfc3200296bb2" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" data-lyrics="https://genius.com/Billie-eilish-bad-guy-lyrics">Bad Guy</li>
+            <li data-genre="pop" data-title="Shape of You" data-artist="Ed Sheeran" data-image="https://upload.wikimedia.org/wikipedia/en/4/45/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" data-lyrics="https://genius.com/Ed-sheeran-shape-of-you-lyrics">Shape of You</li>
+            <li data-genre="pop" data-title="Levitating" data-artist="Dua Lipa" data-image="https://upload.wikimedia.org/wikipedia/en/a/a6/Dua_Lipa_-_Levitating.png" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" data-lyrics="https://genius.com/Dua-lipa-levitating-lyrics">Levitating</li>
+
+        </ul>
+        </div>
+
+        <div class="centre">
+            
+        </div>
+
+        <div class="right">
+
+        </div>
+
+        
+    </div>
+    </main>
+    <footer>
+      <p class="footer-text">🎵 Built with love for music lovers. Keep the beats going! 💙</p>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+</html>
